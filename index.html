@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Guide</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+  <div class="logo">My Website</div>
+
+  <!-- Hamburger Button -->
+ <!-- <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+    ☰
+  </button>-->
+
+  <!-- Menu Links (Same folder file names) -->
+  <ul class="nav-links" id="nav-links">
+   <!-- <li><a href="index.html">Home</a></li>-->
+    <li><a href="Food&Drinks.html">Food&Drinks</a></li>
+    <li><a href="ThingsToDo.html">ThingsToDo</a></li>
+  </ul>
+</nav>
+<h1>Welcome to Wake Forest, North Carolina!</h1>
+
+<p>Welcome to Wake Forest, North Carolina!
+    Wake Forest is a beautiful and fun town to visit, there are many things for first time visitors, families and, foodies to discover here.In this local guide you will find places to eat, grab a drink, things to do and, places to see. Wake Forest was founded in 1880. This town may have started small but has grown into a bustling and vibrant community. Wake Forest is unique because there is so much this town has to offer.
+
+</p> 
+<ul>On thsi website you will find:
+    <li>The introduction of Wake Forest</li>
+    <li> Food and Drinks</li>
+    <li>Things to do</li>
+    
+</ul>
+     <script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburgerBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
